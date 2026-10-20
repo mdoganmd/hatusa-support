@@ -1,0 +1,52 @@
+name: Bug report / Hata bildirimi
+description: Something in Hatusa does not work as expected. / Hatusa'da bir şey beklendiği gibi çalışmıyor.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This page is public.** Do not paste anything you do not want others to see.
+        **Bu sayfa herkese açıktır.** Başkalarının görmesini istemediğiniz bir şeyi yapıştırmayın.
+  - type: input
+    id: version
+    attributes:
+      label: Hatusa version / Hatusa sürümü
+      description: Settings → About / Ayarlar → Hakkında
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version / Windows sürümü
+      description: Settings → System → About / Ayarlar → Sistem → Hakkında
+      placeholder: "Windows 11 24H2"
+    validations:
+      required: true
+  - type: input
+    id: monitor
+    attributes:
+      label: Monitor model and connection / Monitör modeli ve bağlantı
+      placeholder: "MSI MAG 27CQ6F, DisplayPort"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? / Ne oldu?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect? / Ne bekliyordunuz?
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics (optional) / Tanılama (isteğe bağlı)
+      description: |
+        Settings → Troubleshooting → Copy diagnostics, then paste here. Serial numbers are masked.
+        Ayarlar → Sorun giderme → Tanılama bilgisini kopyala, sonra buraya yapıştırın. Seri numaraları maskelenir.
+      render: text

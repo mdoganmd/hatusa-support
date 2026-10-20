@@ -1,0 +1,28 @@
+name: Translation / Çeviri
+description: A wrong or unclear text in Hatusa. / Hatusa'da yanlış ya da anlaşılmaz bir metin.
+labels: [translation]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This page is public.** / **Bu sayfa herkese açıktır.**
+  - type: input
+    id: language
+    attributes:
+      label: Language / Dil
+      placeholder: "Deutsch"
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Text on screen / Ekrandaki metin
+      description: Where it appears and the text as shown. / Nerede göründüğü ve göründüğü haliyle metin.
+    validations:
+      required: true
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested text / Önerilen metin
+    validations:
+      required: true

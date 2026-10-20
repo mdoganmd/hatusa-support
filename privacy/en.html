@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hatusa privacy policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.6 "Segoe UI", system-ui, sans-serif; max-width: 42rem; margin: 2rem auto; padding: 0 1rem; }
+  h1 { font-size: 1.6rem; margin-bottom: 0.2rem; }
+  .updated { opacity: 0.7; margin-top: 0; }
+  h2 { font-size: 1.1rem; margin-top: 1.6rem; }
+  code { font-size: 0.9em; }
+</style>
+</head>
+<body>
+<h1>Hatusa privacy policy</h1>
+<p class="updated">Last updated: 20 October 2026</p>
+
+<p>Hatusa runs on your PC. Hatusa itself makes no network connections, has no accounts, no ads, no analytics and no
+telemetry, and sends no data to the developer.</p>
+
+<h2>Windows components</h2>
+<p>Hatusa's window is drawn by Microsoft Edge WebView2, a part of Windows. Like other Windows components, WebView2 sends
+required diagnostic data to Microsoft regardless of your settings, and optional diagnostic data only if you allow it in
+your Windows diagnostic data settings; this is covered by the
+<a href="https://privacy.microsoft.com/privacystatement">Microsoft Privacy Statement</a>, not by Hatusa. In the Microsoft
+Store version, Windows checks your license with the Microsoft Store service; Hatusa itself still makes no network
+connections. Links in Hatusa (this policy, the support page) open in your web browser.</p>
+
+<h2>What Hatusa stores on your PC</h2>
+<p>To remember your choices, Hatusa keeps a settings file in its app data folder. It contains monitor identifiers (built
+from each monitor's manufacturer, model and, when available, serial number, as reported by the monitor), the names you
+give to monitors and inputs, your brightness schedule and your preferences. If you turn on the optional error log (off by
+default), warnings and errors are written to a log file of at most 2 MB (Microsoft Store version: in the app's own
+package folder; other version: <code>%LOCALAPPDATA%\Hatusa\logs</code>).</p>
+
+<h2>What leaves your PC</h2>
+<p>Nothing is sent by Hatusa. "Copy diagnostics" copies a report to your clipboard; it includes monitor models,
+connection types and DDC/CI responses, with serial numbers masked, and, if the error log is on, its most recent part. It
+is shared only if you paste it somewhere yourself, for example in a support request — support requests on GitHub are
+public.</p>
+
+<h2>Your control</h2>
+<p>You can change or delete names and preferences in Hatusa at any time. Uninstalling the Microsoft Store version removes
+the settings and logs kept in its package folder. If the other (non-Store) version of Hatusa was installed on the same PC
+before, its settings file is used by both and stays after uninstalling.</p>
+
+<h2>Children</h2>
+<p>Hatusa does not collect personal information from anyone, including children.</p>
+
+<h2>Changes and contact</h2>
+<p>Changes to this policy are published on this page. Questions:
+<a href="https://github.com/mdoganmd/hatusa-support/issues">github.com/mdoganmd/hatusa-support/issues</a>.</p>
+</body>
+</html>

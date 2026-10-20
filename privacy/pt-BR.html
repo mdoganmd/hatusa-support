@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidade do Hatusa</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.6 "Segoe UI", system-ui, sans-serif; max-width: 42rem; margin: 2rem auto; padding: 0 1rem; }
+  h1 { font-size: 1.6rem; margin-bottom: 0.2rem; }
+  .updated { opacity: 0.7; margin-top: 0; }
+  h2 { font-size: 1.1rem; margin-top: 1.6rem; }
+  code { font-size: 0.9em; }
+</style>
+</head>
+<body>
+<h1>Política de privacidade do Hatusa</h1>
+<p class="updated">Última atualização: 20 de outubro de 2026</p>
+
+<p>O Hatusa é executado no seu computador. O próprio Hatusa não faz conexões de rede, não tem contas, anúncios, análises nem telemetria e não envia nenhum dado ao desenvolvedor.</p>
+
+<h2>Componentes do Windows</h2>
+<p>A janela do Hatusa é desenhada pelo Microsoft Edge WebView2, que faz parte do Windows. Como outros componentes do Windows, o WebView2 envia à Microsoft os dados de diagnóstico obrigatórios independentemente das suas configurações, e os dados de diagnóstico opcionais somente se você permitir nas configurações de dados de diagnóstico do Windows; isso é coberto pela <a href="https://privacy.microsoft.com/pt-br/privacystatement">Política de Privacidade da Microsoft</a>, não pelo Hatusa. Na versão da Microsoft Store, o Windows verifica sua licença com o serviço da Microsoft Store; o próprio Hatusa continua sem fazer conexões de rede. Os links do Hatusa (esta política, a página de suporte) são abertos no seu navegador.</p>
+
+<h2>O que o Hatusa armazena no seu computador</h2>
+<p>Para lembrar suas escolhas, o Hatusa mantém um arquivo de configurações na pasta de dados do aplicativo. Ele contém identificadores de monitor (formados pelo fabricante, pelo modelo e, quando disponível, pelo número de série, conforme informados por cada monitor), os nomes que você dá aos monitores e às entradas, seu agendamento de brilho e suas preferências. Se você ativar o log de erros opcional (desativado por padrão), avisos e erros são gravados em um arquivo de log de no máximo 2 MB (versão da Microsoft Store: na própria pasta do pacote do aplicativo; outra versão: <code>%LOCALAPPDATA%\Hatusa\logs</code>).</p>
+
+<h2>O que sai do seu computador</h2>
+<p>O Hatusa não envia nada. "Copiar diagnóstico" copia um relatório para a área de transferência; ele inclui modelos de monitor, tipos de conexão e respostas DDC/CI, com os números de série mascarados e, se o log de erros estiver ativado, a parte mais recente dele. Ele só é compartilhado se você mesmo o colar em algum lugar, por exemplo em uma solicitação de suporte — as solicitações de suporte no GitHub são públicas.</p>
+
+<h2>Você no controle</h2>
+<p>Você pode alterar ou excluir nomes e preferências no Hatusa a qualquer momento. Desinstalar a versão da Microsoft Store remove as configurações e os logs mantidos na pasta do pacote dela. Se a outra versão do Hatusa (fora da Store) tiver sido instalada antes no mesmo computador, o arquivo de configurações dela é usado pelas duas versões e permanece após a desinstalação.</p>
+
+<h2>Crianças</h2>
+<p>O Hatusa não coleta informações pessoais de ninguém, incluindo crianças.</p>
+
+<h2>Alterações e contato</h2>
+<p>As alterações nesta política são publicadas nesta página. Dúvidas: <a href="https://github.com/mdoganmd/hatusa-support/issues">github.com/mdoganmd/hatusa-support/issues</a>.</p>
+</body>
+</html>
